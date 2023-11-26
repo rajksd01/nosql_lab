@@ -1,0 +1,20 @@
+db.training.insertMany([
+  { name: "Pavan", results: [{ evaluation: "term1", score: 1.463179736705023 }, { evaluation: "term2", score: 11.78273309957772 }, { evaluation: "term3", score: 6.676176060654615 }] },
+  { name: "Vijay", results: [{ evaluation: "term1", score: 60.06045071030959 }, { evaluation: "term2", score: 52.79790691903873 }, { evaluation: "term3", score: 71.76133439165544 }] },
+  { name: "amar", results: [{ evaluation: "term1", score: 67.03077096065002 }, { evaluation: "term2", score: 6.301851677835235 }, { evaluation: "term3", score: 20.18160621941858 }] },
+  { name: "Girish", results: [{ evaluation: "term1", score: 71.64343899778332 }, { evaluation: "term2", score: 24.80221293650313 }, { evaluation: "term3", score: 1.694720653897219 }] },
+  { name: "Shiv", results: [{ evaluation: "term1", score: 78.68385091304332 }, { evaluation: "term2", score: 90.2963101368042 }, { evaluation: "term3", score: 34.41620148042529 }] },
+  { name: "Shobith", results: [{ evaluation: "term1", score: 44.87186330181261 }, { evaluation: "term2", score: 25.72395114668016 }, { evaluation: "term3", score: 10.53058536508186 }] },
+  { name: "Bhavana", results: [{ evaluation: "term1", score: 37.32285459166097 }, { evaluation: "term2", score: 28.32634976913737 }, { evaluation: "term3", score: 16.58341639738951 }] },
+  { name: "Monica", results: [{ evaluation: "term1", score: 90.37826509157176 }, { evaluation: "term2", score: 42.48780666956811 }, { evaluation: "term3", score: 67.18328596625217 }] }
+]);
+
+
+
+Install 
+npm i mongodb
+
+open terminal 
+run mongod
+
+
